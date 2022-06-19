@@ -1,0 +1,69 @@
+body {
+  background: #2e3033 !important;
+  color: whitesmoke !important;
+}
+
+.header {
+  text-align: center;
+}
+.header .name {
+  font-size: 5rem;
+  margin: 2.5%;
+}
+.header .desc {
+  font-size: 2rem;
+}
+.header button {
+  width: 35%;
+  border-radius: 0;
+  background-color: whitesmoke;
+  color: #2e3033;
+  font-size: 1.5rem;
+  border: 2.5px solid whitesmoke;
+  transition: ease-in-out all 0.3s;
+}
+.header button:hover {
+  background-color: #2e3033;
+  color: whitesmoke;
+  border: 2.5px solid whitesmoke;
+}
+
+.main {
+  margin: 7.5% 0;
+  text-align: center;
+}
+.main .img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .img .player {
+  width: 30%;
+}
+.main .img .player p {
+  font-size: 1.5rem;
+  margin-top: 10%;
+}
+.main .img img {
+  max-width: 100%;
+}
+.main .shuffle {
+  display: none;
+  justify-content: center;
+}
+.main .shuffle button {
+  border: 2px solid whitesmoke;
+  width: 15%;
+  background-color: whitesmoke;
+  color: #2e3033;
+  transition: all 0.5s;
+}
+.main .shuffle button:hover {
+  transform: scale(1.3, 1.3);
+}
+.main .result {
+  display: none;
+  margin: 3.5% 0;
+  font-size: 2.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

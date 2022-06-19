@@ -1,0 +1,84 @@
+$col : rgb(46, 48, 51);
+body{
+    background: $col !important;
+    color: whitesmoke !important;
+}
+
+.header{
+    text-align: center;
+
+    .name{
+        font-size: 5rem;
+        margin: 2.5%;
+    }
+    .desc{
+        font-size: 2rem;
+    }
+
+    button{
+        width: 35%;
+        border-radius: 0;
+        background-color: whitesmoke;
+        color: rgb(46, 48, 51);
+        font-size: 1.5rem;
+        border: 2.5px solid whitesmoke;
+        transition: ease-in-out all 0.3s;
+    }
+    button:hover{
+        background-color: $col;
+        color: whitesmoke;
+        border: 2.5px solid whitesmoke;
+    }
+}
+
+
+.main{
+    margin: 7.5% 0;
+    text-align: center;
+
+    .img{
+        display: flex;
+        justify-content: space-evenly;
+
+        .player{
+            width: 30%;
+            
+            p{
+                font-size: 1.5rem;
+                margin-top: 10%;
+            }
+        }
+        img{
+            max-width: 100%;
+        }
+
+        
+    }
+
+    .shuffle{
+        display: none;
+        // display: flex;
+        justify-content: center;
+        button{
+            border: 2px solid whitesmoke;
+            width: 15%;
+            background-color: whitesmoke;
+            color: $col;
+
+            // transform: all 0.5s;
+            // transition-duration: 500ms;
+            transition: all 0.5s;
+        }
+        button:hover{
+            transform: scale(1.3, 1.3);
+        }
+        
+    }
+
+    .result{
+        display: none;
+        margin: 3.5% 0;
+        font-size: 2.5rem;
+    }
+    
+}
